@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1, h2, p, address, E-mail{
+    color: antiquewhite;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #927055 13.2%, #5C4836 86.8%);
+}
+
+.cabecalho{
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #4B3621;
+}
+
+.cabecalho .caixa{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.menu-itens{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu-itens ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+
+.menu-itens ul li{
+    margin-left: 10px;
+    border: solid 1px #927055;
+    background-color: #927055;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu-itens ul li:hover{
+    background-color: #927055;
+}
+
+.menu-itens a{
+    color: antiquewhite;
+}
+
+main{
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .caixa{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sobre div{
+    margin: 6px
+}
+
+.imagem-redonda img{
+    border-radius: 50%;
+}
+
+.imagem-divisoria{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #bb5844;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-divisoria .caixa{
+    width: 1200px;
+    height: 100%;
+}
+
+.imagem-divisoria img{
+    margin: 10px 0px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #4B3621;
+    text-align: center;
+}
+
+address{
+    margin: 20px 0px;
+}
+
+
+
